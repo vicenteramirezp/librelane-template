@@ -1,6 +1,6 @@
 {
-	"name": "librelane-base-image",
-    "image": "ghcr.io/hm-aemy/librelane-base-image:latest",
+	"name": "IIC-OSIC-TOOLS",
+    "image": "ghcr.io/iic-jku/iic-osic-tools-devcontainer:2024.12",
 
     "postCreateCommand": "git submodule update --init --recursive"
 }
