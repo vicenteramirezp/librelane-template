@@ -1,6 +1,7 @@
 [submodule "librelane"]
 	path = librelane
 	url = https://github.com/librelane/librelane
+	branch = leo/padring
 [submodule "pdk"]
 	path = pdk
 	url = https://github.com/IHP-GmbH/IHP-Open-PDK.git
