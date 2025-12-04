@@ -1,6 +1,6 @@
 {
 	"name": "IIC-OSIC-TOOLS",
-    "image": "ghcr.io/iic-jku/iic-osic-tools-devcontainer:latest",
+    "image": "ghcr.io/hm-aemy/iic-osic-tools:latest",
 
     "postCreateCommand": "git submodule update --init --recursive"
 }
