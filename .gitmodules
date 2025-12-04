@@ -4,4 +4,5 @@
 	branch = leo/padring
 [submodule "pdk"]
 	path = pdk
-	url = https://github.com/IHP-GmbH/IHP-Open-PDK.git
+	url = https://github.com/mole99/IHP-Open-PDK.git
+	branch = leo/padring
