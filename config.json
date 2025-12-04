@@ -230,78 +230,91 @@
         }
     },
 
-    "PAD_IO_SOUTH": [
-        ["sg13g2_IOPadIOVdd", "sg13g2_IOPad_vddio0"],
-        ["sg13g2_IOPadIOVss", "sg13g2_IOPad_vssio0"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_0"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_1"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_2"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_3"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_4"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_5"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_6"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_7"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_8"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_9"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_10"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_11"],
-        ["sg13g2_IOPadVdd", "sg13g2_IOPad_vdd0"],
-        ["sg13g2_IOPadVss", "sg13g2_IOPad_vss0"]
-    ],
-    "PAD_IO_EAST": [
-        ["sg13g2_IOPadIOVdd", "sg13g2_IOPad_vddio1"],
-        ["sg13g2_IOPadIOVss", "sg13g2_IOPad_vssio1"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_12"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_13"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_14"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_15"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_unused_0"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_unused_1"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_unused_2"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_unused_3"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_16"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_17"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_18"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_19"],
-        ["sg13g2_IOPadVdd", "sg13g2_IOPad_vdd1"],
-        ["sg13g2_IOPadVss", "sg13g2_IOPad_vss1"]
-    ],
-    "PAD_IO_NORTH": [
-        ["sg13g2_IOPadIOVdd", "sg13g2_IOPad_vddio2"],
-        ["sg13g2_IOPadIOVss", "sg13g2_IOPad_vssio2"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_20"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_21"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_22"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_23"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_24"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_25"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_26"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_27"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_28"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_29"],
-        ["sg13g2_IOPadVdd", "sg13g2_IOPad_vdd2"],
-        ["sg13g2_IOPadVss", "sg13g2_IOPad_vss2"]
-    ],
-    "PAD_IO_WEST": [
-        ["sg13g2_IOPadIOVdd", "sg13g2_IOPad_vddio3"],
-        ["sg13g2_IOPadIOVss", "sg13g2_IOPad_vssio3"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_30"],
-        ["sg13g2_IOPadInOut30mA", "sg13g2_IOPad_io_31"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_uart_rx_i"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_uart_tx_o"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_fetch_en_i"],
-        ["sg13g2_IOPadOut16mA", "sg13g2_IOPad_status_o"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_clk_i"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_rst_ni"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_ref_clk_i"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_jtag_tck_i"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_jtag_trst_ni"],
-        ["sg13g2_IOPadIn", "sg13g2_IOPad_jtag_tms_i"],
-        ["sg13g2_IOPadIn",       "sg13g2_IOPad_jtag_tdi_i"],
-        ["sg13g2_IOPadOut16mA",  "sg13g2_IOPad_jtag_tdo_o"],
-        ["sg13g2_IOPadVdd", "sg13g2_IOPad_vdd3"],
-        ["sg13g2_IOPadVss", "sg13g2_IOPad_vss3"]
-    ],
+    "PAD_SOUTH": [
+
+    "sg13g2_IOPad_io_clock",
+    "sg13g2_IOPad_io_reset",
+
+    "sg13g2_IOPad_io_flash_clk",
+    "sg13g2_IOPad_io_flash_cs_n",
+    "sg13g2_IOPad_flash\\[0\\].sg13g2_IOPad_io_flash_io",
+    "sg13g2_IOPad_flash\\[1\\].sg13g2_IOPad_io_flash_io",
+    "sg13g2_IOPad_flash\\[2\\].sg13g2_IOPad_io_flash_io",
+    "sg13g2_IOPad_flash\\[3\\].sg13g2_IOPad_io_flash_io",
+
+
+    "sg13g2_IOPad_io_psram_clk",
+    "sg13g2_IOPad_io_psram_cs_n",
+    "sg13g2_IOPad_psram\\[0\\].sg13g2_IOPad_io_psram_io",
+    "sg13g2_IOPad_psram\\[1\\].sg13g2_IOPad_io_psram_io",
+    "sg13g2_IOPad_psram\\[2\\].sg13g2_IOPad_io_psram_io",
+    "sg13g2_IOPad_psram\\[3\\].sg13g2_IOPad_io_psram_io",
+
+    "sg13g2_IOPad_io_ser_rx",
+    "sg13g2_IOPad_io_ser_tx"
+],
+    "PAD_EAST": [
+    "sg13g2_IOPadIOVdd_east",
+    "sg13g2_IOPadIOVss_east",
+        
+    
+    "sg13g2_IOPad_io_fpga_mode",
+    "sg13g2_IOPad_io_fetch_enable",
+    "sg13g2_IOPad_io_config_busy",
+    "sg13g2_IOPad_io_core_sleep",
+        
+    "sg13g2_IOPad\\[0\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[1\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[2\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[3\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[4\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[5\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[6\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[7\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPadVss_east",
+    "sg13g2_IOPadVdd_east"
+],
+
+"PAD_NORTH": [
+    "sg13g2_IOPad\\[23\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[22\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[21\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[20\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[19\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[18\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[17\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[16\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[15\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[14\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[13\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[12\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[11\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[10\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[9\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[8\\].sg13g2_IOPad_io_gpio"
+],
+
+"PAD_WEST": [
+    "sg13g2_IOPadVdd_west",
+    "sg13g2_IOPadVss_west",
+
+    "sg13g2_IOPad\\[31\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[30\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[29\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[28\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[27\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[26\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[25\\].sg13g2_IOPad_io_gpio",
+    "sg13g2_IOPad\\[24\\].sg13g2_IOPad_io_gpio",
+
+    "sg13g2_IOPad_io_fpga_sclk",
+    "sg13g2_IOPad_io_fpga_cs_n",
+    "sg13g2_IOPad_io_fpga_mosi",
+    "sg13g2_IOPad_io_fpga_miso",
+        
+    "sg13g2_IOPadIOVss_west",
+    "sg13g2_IOPadIOVdd_west"
+],
 
     "ROUTING_OBSTRUCTIONS": [
         ["TopMetal1", 370, 850, 707, 1650],

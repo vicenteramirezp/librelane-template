@@ -10,11 +10,11 @@ PDK = ihp-sg13g2
 
 CONFIG_FILE = $(PROJECT_DIR)/config.json
 
-CFG_FILES:= \
-	$(CONFIG_FILE) \
-	$(PROJECT_DIR)/constraint.sdc \
-	$(SCRIPTS_DIR)/pdn.tcl \
-	$(SCRIPTS_DIR)/pad.tcl 
+# CFG_FILES:= \
+# 	$(CONFIG_FILE) \
+# 	$(PROJECT_DIR)/constraint.sdc \
+# 	$(SCRIPTS_DIR)/pdn.tcl \
+# 	$(SCRIPTS_DIR)/pad.tcl 
 
 all: librelane sealring fillers drc lvs
 .PHONY: all
